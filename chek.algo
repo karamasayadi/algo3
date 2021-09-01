@@ -1,0 +1,39 @@
+algorithme ex
+procedure vector (v1,v2)
+var 
+v1:array to integer [3];
+v2:array to integer [3];
+x,i,som : integer;
+begin
+som=0,x=0,
+for (i from to v1.length step1)do 
+v=v1[i]*v2[i]; 
+som=som+v;
+end for 
+write (som)
+end .
+
+algorithme ex2
+var 
+y=boolean ;
+begin 
+y=false;
+if (vector(v1,v2)=0)then 
+y=true ;
+else write (y);
+end if 
+end .
+
+function  vector (v1,v2):integer;
+var 
+v1:array to integer [3];
+v2:array to integer [3];
+x,i,som : integer;
+begin
+som=0,x=0,
+for (i from to v1.length step1)do 
+v=v1[i]*v2[i]; 
+som=som+v;
+end for 
+write (som)
+end .
